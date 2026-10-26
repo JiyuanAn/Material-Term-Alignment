@@ -8,6 +8,7 @@ import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from .align import align_object, align_property, get_service
+from .embed import EmbeddingError
 from . import config
 
 
@@ -19,6 +20,8 @@ class Handler(BaseHTTPRequestHandler):
         service = get_service()
         self._send({
             "ok": True,
+            "method": config.ALIGN_METHOD,
+            "embed_model": config.EMBED_MODEL,
             "n_properties": len(service.lexicon.properties),
             "n_entities": len(service.lexicon.entities),
         })
@@ -39,14 +42,17 @@ class Handler(BaseHTTPRequestHandler):
                     body.get("name"),
                     unit=body.get("unit"),
                     context_fields=body.get("context_fields"),
+                    method=body.get("method"),
                 )
             else:
-                result = align_object(body.get("name"))
+                result = align_object(body.get("name"), method=body.get("method"))
             self._send({"ok": True, "result": result})
         except ValueError as exc:
             self._send({"ok": False, "error": str(exc)}, 400)
         except json.JSONDecodeError:
             self._send({"ok": False, "error": "请求体不是合法 JSON"}, 400)
+        except EmbeddingError as exc:
+            self._send({"ok": False, "error": str(exc)}, 503)
 
     def _send(self, payload, status=200):
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -63,9 +69,12 @@ class Handler(BaseHTTPRequestHandler):
 def main():
     service = get_service()
     print(
-        f"属性词条 {len(service.lexicon.properties)}，实体词条 {len(service.lexicon.entities)}",
+        f"属性词条 {len(service.lexicon.properties)}，实体词条 {len(service.lexicon.entities)}，检索 {config.ALIGN_METHOD}",
         flush=True,
     )
+    if config.ALIGN_METHOD == "embedding":
+        service.embed_index("property")
+        service.embed_index("entity")
     server = ThreadingHTTPServer((config.HOST, config.PORT), Handler)
     print(f"就绪 http://{config.HOST}:{config.PORT}/health", flush=True)
     server.serve_forever()

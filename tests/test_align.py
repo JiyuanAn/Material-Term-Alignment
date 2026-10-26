@@ -47,10 +47,10 @@ def test_property():
     check(hardness["decision"] == "accept" and hardness["canonical_name"] == "硬度", hardness)
     check(hardness["role"] == "结果", hardness["role"])
 
-    missing = align_property("zzzz-not-a-property")
+    missing = align_property("zzzz-not-a-property", method="ngram")
     check(missing["decision"] == "reject", missing)
 
-    vague = align_property("温度")
+    vague = align_property("温度", method="ngram")
     check(vague["decision"] in ("accept", "borderline"), vague)
     check(vague["candidates"] and "温度" in vague["candidates"][0]["name_cn"], vague["candidates"][:3])
 
@@ -75,6 +75,25 @@ def test_object():
 
     alloy = align_object("Ti-6Al-4V")
     check(alloy["kind"] == "formula" and alloy["canonical_formula"] == "Al6TiV4", alloy)
+
+
+def test_embedding():
+    stress = align_property("屈服应力")
+    check(stress["method"] == "embedding" and stress["match_type"] == "embedding", stress)
+    check(stress["decision"] == "accept" and stress["canonical_name"] == "屈服强度", stress)
+
+    sinter = align_property("sintering temp")
+    check(sinter["decision"] == "accept" and sinter["canonical_name"] == "烧结温度", sinter)
+
+    junk = align_property("zzzz-not-a-property")
+    check(junk["decision"] == "reject" and junk["match_type"] == "embedding", junk)
+
+    steel = align_object("不锈钢材料")
+    check(steel["decision"] == "accept" and steel["canonical_name"] == "不锈钢", steel)
+    check(steel["match_type"] == "embedding", steel)
+
+    missing = align_object("not-a-material-zzzz")
+    check(missing["decision"] == "reject" and missing["kind"] == "class", missing)
 
 
 def test_http():
@@ -112,5 +131,6 @@ if __name__ == "__main__":
     test_formula()
     test_property()
     test_object()
+    test_embedding()
     test_http()
     print("ok")

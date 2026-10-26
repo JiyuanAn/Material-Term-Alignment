@@ -18,11 +18,28 @@ PROPERTY_ALIAS_CSV = Path(os.environ.get(
     ROOT / "data" / "property_aliases.csv",
 ))
 
-# 字符 n-gram 向量。精确层命中不看这些阈值。
+# 精确层命中后不再看下面的阈值。
+# ngram：字符 n-gram。embedding：Qwen3-Embedding-8B 余弦相似度。
+ALIGN_METHOD = os.environ.get("ALIGN_METHOD", "embedding")
+
 SEMANTIC_ACCEPT = 0.55
 SEMANTIC_BORDERLINE = 0.32
 SEMANTIC_MARGIN = 0.06
 SEMANTIC_TOP_K = 5
+
+# Qwen3-Embedding-8B，vLLM OpenAI 兼容接口。见 LLMs/run/Qwen3-Embedding-8B.sh。
+EMBED_ENDPOINT = os.environ.get("EMBED_ENDPOINT", "http://compute3:8111/v1/embeddings")
+EMBED_MODEL = os.environ.get("EMBED_MODEL", "Qwen3-Embedding-8B")
+EMBED_TIMEOUT = float(os.environ.get("EMBED_TIMEOUT", "180"))
+EMBED_BATCH = int(os.environ.get("EMBED_BATCH", "32"))
+EMBED_CACHE_DIR = ROOT / "data" / "embed_cache"
+# 余弦分数高于字符 n-gram。0.80 且与第二名相差 0.05 才接受；0.735 以上记为边界。
+EMBED_PROPERTY_ACCEPT = 0.80
+EMBED_PROPERTY_BORDERLINE = 0.735
+EMBED_PROPERTY_MARGIN = 0.05
+EMBED_OBJECT_ACCEPT = 0.80
+EMBED_OBJECT_BORDERLINE = 0.735
+EMBED_OBJECT_MARGIN = 0.05
 
 HOST = os.environ.get("ALIGN_HOST", "127.0.0.1")
 PORT = int(os.environ.get("ALIGN_PORT", "8030"))

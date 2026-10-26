@@ -28,15 +28,21 @@ class SemanticIndex:
         return [(int(i), float(sims[i])) for i in order if sims[i] > 0]
 
 
-def decide(ranked):
+def decide(ranked, accept=None, borderline=None, margin_min=None):
     """绝对分数加上与第二名的分差。分差过小保持边界，不自动接受。"""
+    if accept is None:
+        accept = config.SEMANTIC_ACCEPT
+    if borderline is None:
+        borderline = config.SEMANTIC_BORDERLINE
+    if margin_min is None:
+        margin_min = config.SEMANTIC_MARGIN
     if not ranked:
         return "reject", 0.0, None
     top_score = ranked[0][1]
     second = ranked[1][1] if len(ranked) > 1 else None
     margin = None if second is None else top_score - second
-    if top_score >= config.SEMANTIC_ACCEPT and (margin is None or margin >= config.SEMANTIC_MARGIN):
+    if top_score >= accept and (margin is None or margin >= margin_min):
         return "accept", top_score, margin
-    if top_score >= config.SEMANTIC_BORDERLINE:
+    if top_score >= borderline:
         return "borderline", top_score, margin
     return "reject", top_score, margin
