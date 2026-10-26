@@ -1,0 +1,1248 @@
+﻿source_table_index,id,name_en,name_cn
+0,E1,data name,数据名称
+0,E4,data generation date,数据生成
+0,E12,data source,数据来源
+0,E11,Korea classification code,韩国分类代码
+0,E13,material system,材料体系
+0,E2,name,名称
+0,E3,affiliation,隶属关系
+0,E9,email address,电子邮件地址
+0,E10,researcher number,研究人员编号
+0,E6,keywords,电阻温度系数
+0,E7,embargo,数据开放访问的禁令期限
+0,E8,rights,权利
+1,M1,name,材料名称
+2,M2,composition,组成
+2,M278,purity,纯度
+2,M87,density,密度
+2,M223,CAS number,CAS编号
+2,M224,chemical formula,化学式
+2,M225,structural formula,结构式
+2,M226,number-average value,数均分子量
+2,M303,weight-average value,重均值
+2,M304,dispersity,分散度
+2,M305,tacticity,立构规整度
+2,M306,linearity,线性
+2,M308,homogeneity,均一性
+2,M227,additive,添加剂
+2,M12,SMILES,SMILES
+3,M13,elements,元素
+3,M14,phase,相
+3,M15,x,x方向尺寸
+3,M16,y,y方向尺寸
+3,M17,z,z
+3,M122,alpha,晶系角α
+3,M123,beta,β角
+3,M124,gamma,晶格参数角度γ
+3,M155,cell type,晶胞类型
+3,M18,periodic boundary condition,周期性边界条件
+3,M19,structure file,结构文件
+4,M3,Bravais lattice,布拉维晶格
+4,M206,ICSD collection code,ICSD收集代码
+4,M4,a,晶格参数a
+4,M5,b,晶格参数b
+4,M6,c,晶格参数c
+4,M7,alpha,晶格参数角度α
+4,M279,cell volume,晶胞体积
+4,M280,cell formula units,晶胞分子式单元
+4,M281,density of crystal structure,晶体密度
+4,M10,strukturbericht designation,结构报告标识
+4,M11,space group,空间群
+4,M119,crystal system,晶系
+4,M120,Pearson symbol,皮尔逊符号
+4,M121,Wyckoff symbol,Wyckoff符号
+4,M228,perovskite type,钙钛矿型
+4,M282,extinction symbol,消光符号
+4,M310,species,物种
+4,M74,type,零维缺陷
+4,M75,formation energy,形成能
+4,M77,electric charge,电荷
+4,M78,type,一维缺陷
+4,M79,Burgers vector,伯格斯矢量
+4,M81,velocity,速度
+4,M82,type,二维缺陷类型
+4,M83,interfacial energy,界面能
+4,M84,misorientation,取向差
+4,M229,type,三维缺陷
+4,M230,volume fraction,体积分数
+4,M231,size distribution,尺寸分布
+4,M86,impurity,杂质
+4,M88,grain size,晶粒尺寸
+4,M89,grain aspect ratio,晶粒纵横比
+4,M311,Lotgering factor,Lotgering因子
+4,M90,shape,形状
+4,M91,diameter,直径
+4,M92,length,长度
+4,M93,width,宽度
+4,M94,height,高度
+4,M138,facet,晶面
+4,M235,orientation,取向
+5,M238,chirality,手性
+5,M239,average diameter,平均直径
+5,M240,inner diameter,内径
+5,M241,outer diameter,外径
+5,M242,thickness,厚度
+5,M283,note,结构/形貌/二维材料
+5,M243,dimension,尺寸
+5,M141,pore diameter_,孔径
+5,M142,pore limiting diameter,孔限直径
+5,M312,pore fraction,孔隙率
+5,M313,average pore diameter,平均孔径
+5,M95,name,结构/相
+5,M184,crystal structure,晶体结构
+5,M97,fraction,分数
+5,M140,porosity,孔隙率
+5,M233,RMS surface roughness,RMS表面粗糙度
+5,M98,BET surface area,BET比表面积
+5,M99,Langmuir surface area,朗缪尔表面积
+5,M139,electrochemically active surface area,电化学活性表面积
+5,M232,texture table,织构表
+5,M314,pole figure,极图
+5,M100,total pore volume,总孔体积
+6,M20,anodic partial current,阳极分电流
+6,M21,cathodic partial current,阴极部分电流
+6,M22,corrosion current,腐蚀电流
+6,M23,corrosion potential,腐蚀电位
+6,M24,corrosion rate,腐蚀速率
+6,M25,free corrosion current,自由腐蚀电流
+6,M26,free corrosion potential,自由腐蚀电位
+6,M27,passivation potential,钝化电位
+6,M28,passivation current,钝化电流
+6,M29,pitting initiation potential,点蚀起始电位
+6,M30,re-activation potential,再活化电位
+6,M31,redox potential,氧化还原电位
+6,M32,transpassivation potential,过钝化电位
+6,M125,polarized potential,极化电位
+6,M126,standard electrode potential,标准电极电位
+7,M33,band gap bowing parameter,带隙弯曲参数
+7,M34,band gap energy,带隙能量
+7,M207,band gap type,带隙类型
+7,M244,band gap graded,带隙梯度
+7,M315,carrier type,载流子类型
+7,M35,carrier concentration,载流子浓度
+7,M36,carrier diffusion length,载流子扩散长度
+7,M37,carrier lifetime,载流子寿命
+7,M245,conduction band minimum,导带底
+7,M246,charge of constituents,组分电荷
+7,M38,critical temperature,临界温度
+7,M316,defect energy level,缺陷能级
+7,M39,dielectric constant,介电常数
+7,M127,dielectric strength,介电强度
+7,M40,electric susceptibility,电极化率
+7,M41,electrical conductivity,电导率
+7,M42,DOS data,态密度数据
+7,M43,DOS file,态密度文件
+7,M156,DOS type,态密度类型
+7,M44,electron effective mass,电子有效质量
+7,M45,electron mobility,电子迁移率
+7,M46,exciton binding energy,激子结合能
+7,M128,Fermi level,费米能级
+7,M129,Hall coefficient,霍尔系数
+7,M130,Hall voltage,霍尔电压
+7,M47,hole effective mass,空穴有效质量
+7,M48,hole mobility,空穴迁移率
+7,M284,ionic activation energy,离子激活能
+7,M131,ionic conductivity,离子电导率
+7,M132,ionic mobility,离子迁移率
+7,M317,loss tangent,损耗角正切
+7,M49,permittivity,介电常数
+7,M50,resistivity,电阻率
+7,M208,spin-Hall angle,自旋霍尔角
+7,M52,spin-orbit splitting energy,自旋-轨道分裂能
+7,M318,trap density,陷阱密度
+7,M51,temperature coefficient of resistance,电阻温度系数
+7,M247,valence band maximum,价带顶
+7,M153,oxidation potential,氧化电位
+7,M154,reduction potential,还原电位
+7,M203,saturation polarization,饱和极化
+7,M204,coercive electric field,矫顽电场
+7,M205,remanent polarization,剩余极化
+7,M272,oxygen transmission rate,氧气透过率
+7,M273,water vapor transmission rate,水蒸气透过率
+7,M319,hydrogen permeability,氢渗透性
+8,M292,absorption shielding effectiveness,吸收屏蔽效能
+8,M209,coercivity,矫顽力
+8,M101,Curie temperature,居里温度
+8,M285,dielectric loss tangent,介电损耗角正切
+8,M286,DMI energy density,DMI能量密度
+8,M287,DMI field,DMI场
+8,M297,domain wall propagation field,畴壁传播场
+8,M288,effective magnetic anisotropy energy,有效磁各向异性能
+8,M289,interface state density,界面态密度
+8,M210,intrinsic coercivity,内禀矫顽力
+8,M211,magnetic anisotropy constant,磁各向异性常数
+8,M290,magnetic anisotropy energy,磁各向异性能量
+8,M212,magnetic anisotropy field,磁各向异性场
+8,M248,magnetic field strength,磁场强度
+8,M249,magnetic induction,磁感应强度
+8,M291,magneto-optical Kerr angle,磁光克尔角
+8,M250,magnetization,磁化
+8,M251,magnetostriction,磁致伸缩
+8,M213,maximum BH product,最大磁能积
+8,M102,maximum permeability,最大磁导率
+8,M103,maximum susceptibility,最大磁化率
+8,M214,recoil permeability,回复磁导率
+8,M293,reflection shielding effectiveness,反射屏蔽效能
+8,M320,remanent coercivity,剩磁矫顽力
+8,M215,remanent flux density,剩磁通密度
+8,M216,remanent magnetic polarization,剩磁极化
+8,M217,remanent magnetization,剩磁
+8,M252,saturation flux density,饱和磁通密度
+8,M218,saturation magnetic polarization,饱和磁极化
+8,M219,saturation magnetization,饱和磁化强度
+8,M295,spin Hall angle,自旋霍尔角
+8,M296,spin-orbit torque efficiency,自旋轨道转矩效率
+8,M220,squareness,矩形比
+8,M294,total shielding effectivenss,总屏蔽效能
+8,M298,work function,功函数
+8,M53,compressive yield strength,压缩屈服强度
+8,M54,ultimate compressive strength,极限抗压强度
+8,M253,compressive fracture strength,抗压断裂强度
+8,M254,compressive fracture strain,压缩断裂应变
+8,M55,rupture time,断裂时间
+8,M56,minimum creep rate,最小蠕变速率
+8,M158,instantaneous strain,瞬时应变
+8,M159,reduction of area,断面收缩率
+8,M160,time to tertiary creep,达到第三蠕变阶段的时间
+8,M161,creep rupture strength,蠕变断裂强度
+8,M162,creep rupture strain,蠕变断裂应变
+8,M321,stress exponent,应力指数
+9,M58,Young's modulus,杨氏模量
+9,M59,shear modulus,剪切模量
+9,M60,bulk modulus,体积模量
+9,M61,compressibility,压缩性
+9,M62,Poisson’s ratio,泊松比
+9,M133,resilience modulus,弹性模量
+9,M63,fatigue life,疲劳寿命
+9,M64,fatigue limit,疲劳极限
+9,M163,fatigue property type,疲劳性能类型
+9,M164,fatigue crack growth rate,疲劳裂纹扩展速率
+9,M165,stress intensity factor,应力强度因子
+9,M166,stress intensity factor range,应力强度因子范围
+9,M167,fatigue crack growth threshold,疲劳裂纹扩展门槛值
+9,M172,plane strain fracture toughness K,平面应变断裂韧性K
+9,M173,plane strain fracture toughness J,平面应变断裂韧性J
+9,M174,crack tip opening displacement,裂纹尖端张开位移
+9,M65,hardness,硬度
+9,M175,impact energy,冲击能量
+9,M176,upper shelf energy,上平台能量
+9,M177,lower shelf energy,下平台能量
+9,M178,ductile-to-brittle transition temperature,韧脆转变温度
+9,M168,plastic strain ratio,塑性应变比
+9,M256,normal anisotropy,正常各向异性
+9,M257,planar anisotropy,平面各向异性
+9,M258,limiting drawing ratio,极限拉深比
+9,M259,bendability,弯曲性
+9,M262,hole expansion ratio,扩孔率
+9,M263,springback ratio,回弹比
+9,M66,yield strength,屈服强度
+9,M67,ultimate tensile strength,极限抗拉强度
+9,M322,tensile modulus,拉伸模量
+9,M68,uniform elongation,均匀伸长率
+9,M69,total elongation,总伸长率
+9,M70,strain hardening exponent,应变硬化指数
+9,M221,critical resolved shear stress,临界分切应力
+9,M222,tensile toughness,拉伸韧性
+9,M323,fracture strength,断裂强度
+9,M324,absorbance,吸光度
+9,M111,absorption coefficient,吸收系数
+9,M264,lifetime,寿命
+9,M265,quantum efficiency,量子效率
+9,M267,peak position,峰值位置
+9,M112,optical bandgap,光学带隙
+9,M266,type,光学性质/光致发光
+9,M325,maximum peak wavelength,最大峰值波长
+9,M115,reflectance,反射率
+9,M116,transmittance,透射率
+9,M326,normal incidence transmittance,法向透射率
+9,M117,colo,颜色
+9,M118,refractive index,折射率
+10,M198,piezoelectric strain coefficient,压电应变系数
+10,M199,piezoelectric voltage coefficient,压电电压系数
+10,M200,piezoelectric charge coefficient,压电电荷系数
+10,M201,electromechanical coupling factor,机电耦合系数
+10,M202,mechanical quality factor,机械品质因数
+10,M137,viscosity,粘度
+10,M180,normal stress,正应力
+10,M181,storage modulus,储能模量
+10,M182,loss modulus,损耗模量
+10,M330,Seebeck coefficient,塞贝克系数
+10,M331,power factor,功率因子
+10,M332,ZT,热电优值
+10,M143,activity,活度
+10,M269,activity coefficient,活度系数
+10,M275,standard state,标准状态
+10,M276,temperature,温度
+10,M277,pressure,压力
+10,M268,boiling temperature,沸点
+10,M144,chemical potential,化学势
+10,M145,cryoscopic constant,凝固点降低常数
+10,M146,diffusivity,扩散率
+10,M188,Debye temperature,德拜温度
+10,M147,ebullioscopic constant,沸点升高常数
+10,M148,enthalpy of formation,生成焓
+10,M149,fugacity,逸度
+10,M270,glass transition temperature,玻璃化转变温度
+10,M150,Gibbs free energy,吉布斯自由能
+10,M151,heat capacity,热容
+10,M104,heat of fusion,熔化热
+10,M271,heat of vaporization,汽化热
+10,M105,melting temperature,熔点
+10,M106,melting range,熔化区间
+10,M300,onset temperature,起始温度
+10,M301,softening temperature,软化温度
+10,M107,specific heat,比热容
+10,M108,thermal conductivity,热导率
+10,M327,thermal degradation temperature,热降解温度
+10,M109,thermal diffusivity,热扩散率
+10,M110,thermal expansion coefficient,热膨胀系数
+10,M328,moisture absorption,吸湿性
+11,S1,description,描述
+12,S259,material,材料
+12,S137,mass loading,质量负载
+12,S262,volume,体积
+12,S144,mass,质量
+12,S270,tortuosity,曲折度
+12,S151,cell type,电池类型
+12,S130,active material_,活性物质
+12,S131,coating material_,涂层材料
+12,S132,binder_,粘结剂
+12,S133,conducting material_,导电材料
+12,S271,additive_,添加剂
+12,S135,catholyte_,阴极电解质
+12,S272,current collector_,集流体
+12,S273,active material_,活性材料
+12,S278,anolyte_,阳极电解液
+12,S280,solvent_,溶剂
+12,S281,salt_,盐
+13,S2,active material,活性材料
+13,S3,amount of active material,活性物质含量
+13,S4,promoto,促进剂
+13,S5,amount of promotor,助催化剂用量
+13,S64,coating material,涂层材料
+13,S65,amount of coating material,涂层量
+13,S6,support materials,载体材料
+14,S338,gap,间隙
+14,S117,structure type,结构类型
+15,S479,doping,掺杂
+15,S483,material,活性层材料
+16,S258,device type,器件类型
+17,S325,substrate,基材
+17,S326,material,第n层材料
+17,S328,note,多层系统/配置/层_
+18,S430,substrate type,基板类型
+18,S433,electrode type,电极类型
+18,S436,material,有机薄膜晶体管/结构/栅介质_
+18,S438,type,有机薄膜晶体管/结构/界面层_
+18,S439,material,有机薄膜晶体管/结构/界面层_
+18,S441,material,半导体材料
+18,S443,material,有机薄膜晶体管/配置/其他结构
+18,S445,channel length,沟道长度
+18,S446,channel width,沟道宽度
+18,S447,channel area,沟道区
+19,S555,material_,材料
+19,S557,material_,电极材料
+19,S563,size,尺寸
+20,S68,pixel size,像素尺寸
+20,S69,microjunction size,微结尺寸
+20,S72,angle,角度
+20,S73,direction,方向
+20,S76,material,刻蚀停止层材料
+20,S103,material_,底电极材料
+20,S79,monolayer,单层
+20,S82,period,周期
+20,S508,material_,底层界面层材料
+20,S91,layer thickness,势垒层厚度
+20,S93,barrier period,势垒周期
+20,S510,material_,顶层界面层材料
+20,S94,material,间隔层材料
+20,S98,layer thickness,顶层接触层材料的层厚
+20,S106,material_,顶部电极材料
+21,S514,area,面积
+21,S109,repeating unit_,重复单元
+21,S111,assembly,组装
+22,S614,material_,源电极材料
+22,S616,material_,漏极电极材料
+22,S618,material_,底栅材料
+22,S620,material_,顶栅材料
+22,S621,thickness,顶栅厚度
+22,S624,material_,介质层材料
+23,S351,architecture,架构
+23,S352,material,前附加层材料
+23,S354,function,附加前层功能
+23,S358,material,前接触材料
+23,S359,material,n型层材料
+23,S361,material,本征层材料
+23,S363,area,单晶
+23,S366,material,背接触材料
+23,S368,material,背侧附加层材料
+23,S370,area,附加背层功能
+24,S371,encapsulation,封装
+24,S372,total area,总面积
+24,S373,area measured,测量面积
+24,S374,number of cells per substrate,每基板电池数量
+24,S375,number of cells in module,模块中的电池数量
+24,S377,active area,有效面积
+24,S674,designated illumination area,指定光照面积
+24,S378,JV data recalculated per cell,每子电池重新计算的IV数据
+25,S287,length,底电极长度
+25,S289,thickness,底电极厚度
+25,S292,length,压电层长度
+25,S296,length,顶电极长度
+25,S299,material,顶部电极材料
+26,S7,framework_,框架
+26,S8,grafted molecule,接枝分子
+26,S66,grafted molecule amount,接枝分子
+27,S679,selective layer,选择性层
+27,S680,thickness of selective layer,选择性层厚度
+27,S681,coating layer,涂层
+27,S682,thickness of coating layer,涂层厚度
+27,S683,membrane support,膜支撑体
+27,S684,thickness of membrane support,膜支撑层厚度
+28,S235,specific capacity,比容量
+28,S306,operating voltage_,工作电压
+28,S243,cycling number,循环次数
+28,S244,cycling hours,循环时长
+28,S245,capacity retention,容量保持率
+28,S246,overpotential,过电位
+28,S247,coulombic efficiency,库仑效率
+28,S248,energy efficiency,能量效率
+28,S309,volumetric energy density,体积能量密度
+28,S310,"gravimetric energy
+density",重量能量密度
+28,S349,areal energy density,面能量密度
+28,S311,volumetric power density,体积功率密度
+28,S312,gravimetric power density,重量功率密度
+28,S350,areal power density,面功率密度
+29,S329,reaction type,反应类型
+29,S24,area-specific activity,单位面积活性
+29,S25,mass-specific activity,质量比活性
+29,S26,Faradaic efficiency,法拉第效率
+29,S152,onset potential,起始电位
+29,S153,half-wave potential,半波电位
+29,S155,limiting current density,极限电流密度
+29,S330,product,产物
+29,S164,area-specific activity,面积比活性
+29,S33,data_,数据
+29,S35,reaction gas,反应气体
+29,S39,weight,重量
+29,S332,equilibrium constant,平衡常数
+29,S333,reaction step,反应步骤
+29,S334,surface coverage,表面覆盖度
+29,S335,activation energy,活化能
+29,S336,reaction energy,反应能
+29,S337,rate constant,速率常数
+30,S190,relative humidity,相对湿度
+30,S191,wavelength,波长
+30,S192,light intensity,光强
+30,S193,bias voltage,偏置电压
+30,S194,operating temperature,工作温度
+30,S195,gas type,气体类型
+30,S196,flow rate,流量
+30,S198,gas concentration,气体浓度
+30,S339,flow rate,流速
+30,S340,exposure time,暴露时间
+30,S471,power consumption,功耗
+30,S189,gas response,气体响应
+30,S472,baseline resistance,基线电阻
+30,S209,recovery time,恢复时间
+30,S219,response time,响应时间
+31,S229,"theoretical detection
+limit",理论检测限
+31,S207,gas type_,气体类型
+31,S208,gas concentration_,气体浓度
+31,S341,response,响应
+31,S475,sensitivity,灵敏度
+31,S231,exposure duration,暴露时长
+31,S342,responsivity,响应度
+32,S492,on capacitance,导通电容
+32,S493,off capacitance,关态电容
+32,S494,set capacitance,设定电容
+32,S495,on-off ratio,开-关比
+32,S496,number of states,状态数
+32,S497,cycles,循环
+32,S498,voltage sweep,电压扫描
+32,S499,operating mechanism,操作机制
+32,S500,operating speed,工作速度
+32,S501,time,时间
+32,S503,set,设定
+32,S504,reset,复位电压
+33,S46,Icc,电流设定值
+33,S47,Ion,离子
+33,S48,Ioff,关态电流
+33,S49,Iset,关态电流
+33,S51,voltage sweeps,电压扫描范围
+33,S53,LRS,低阻态导电机制
+33,S54,HRS,高阻态
+33,S56,HRS,高阻态值
+33,S57,LRS,低阻态
+33,S60,on/off ratio,开/关比
+33,S61,set,电压
+33,S63,forming,成形
+34,S505,adhesion,附着力
+35,S448,operating voltage,工作电压
+35,S449,threshold voltage,阈值电压
+35,S450,on current,导通电流
+35,S451,off current,截止电流
+35,S506,gate leakage current,栅极漏电流
+35,S453,voltage gain,电压增益
+35,S454,current gain,电流增益
+35,S455,transition frequency,转换频率
+35,S456,carrier mobility,载流子迁移率
+35,S457,capacitance,电容
+35,S507,contact resistance,接触电阻
+35,S458,subthreshold swing,亚阈值摆幅
+35,S459,energy consumption,能耗
+35,S461,applied voltage,施加电压
+35,S462,air stability,空气稳定性
+35,S463,temperature stability,温度稳定性
+35,S464,humidity stability,湿度稳定性
+35,S465,bending stability,弯曲稳定性
+35,S466,stretching stability,拉伸稳定性
+36,S564,dark current,暗电流
+36,S566,gate voltage,栅极电压
+36,S567,dark current density,暗电流密度
+36,S569,photocurrent,光电流
+36,S574,photocurrent density,光电流密度
+36,S578,on-off ratio,开关比
+37,S582,photoconductive gain,光电导增益
+37,S590,specific detectivity,比探测率
+37,S594,decay time,衰减时间
+37,S595,rise time,上升时间
+37,S596,external quantum efficiency,外量子效率
+37,S600,linear dynamic range,线性动态范围
+37,S602,cutoff wavelength,截止波长
+37,S603,emission wavelength,发射波长
+37,S604,noise,噪声
+37,S605,signal-to-noise,信噪比
+37,S606,noise equivalent power,噪声等效功率
+37,S607,exposure duration,曝光持续时间
+37,S608,photoresponse,光响应
+37,S610,operating time,操作时间
+39,S550,exposure duration,曝光时长
+39,S551,photoresponse,光电响应
+39,S553,operating time,工作时间
+41,S640,on-off ratio,开/关比
+41,S643,light intensity,光强度
+42,S379,minimum bending radius,最小弯曲半径
+42,S380,average transmittance,平均透射率
+42,S675,color rendering index,显色指数
+42,S381,wavelength range,波长范围
+43,S382,Voc,开路电压
+43,S383,Jsc,短路电流密度
+43,S384,Pmax,最大功率点
+43,S385,FF,填充因子
+43,S386,PCE,光电转换效率
+43,S387,Vmp,最大功率点电压
+43,S388,Jmp,最大功率点电流密度
+43,S389,series resistance,串联电阻
+43,S390,shunt resistance,并联电阻
+43,S676,hysteresis index,迟滞指数
+43,S401,Vmp,稳定的最大功率点电压
+43,S402,Jmp,稳定状态下的Jmp
+43,S403,integrated Jsc,集成短路电流密度
+43,S678,internal quantum efficiency,内量子效率
+43,S404,initial value,初始值
+43,S405,burn in observed,光热初始衰减现象
+43,S406,final value,最终值
+43,S407,T95,T95
+43,S408,Ts95,Ts95
+43,S409,T80,T80
+43,S410,Ts80,Ts80
+43,S411,Te80,Te80
+43,S412,Tse80,Tse80
+43,S413,after 1000h,1000小时后
+43,S414,lifetime energy yield,寿命能量产出
+43,S415,initial PCE,初始光电转换效率
+43,S416,final PCE,最终光电转换效率
+43,S417,PCE trace,PCE追踪
+43,S419,burn in observed,光衰初始期观察
+43,S428,power generated,发电量
+44,S313,maximum output voltage,最大输出电压
+44,S314,applied load,施加负载
+44,S315,load resistance,负载电阻
+44,S316,maximum output current,最大输出电流
+44,S319,maximum output power,最大输出功率
+44,S322,maximum power density,最大功率密度
+45,S40,data_,数据_
+45,S45,absorbed gas amount,吸附气体量
+46,S685,permeance,渗透率
+46,S686,rejection,截留率
+46,S687,selectivity,选择性
+47,A188,instrument,仪器
+47,A189,electron source,电子源
+47,A190,electron beam energy,电子束能量
+47,A191,electron beam current,电子束电流
+47,A192,ion beam energy,离子束能量
+47,A193,ion type,离子类型
+47,A194,ion beam current,离子束电流
+47,A195,raster size,光栅尺寸
+47,A196,sputter time,溅射时间
+47,A197,neutralizer beam energy,中和束能量
+47,A198,neutralizer beam current,中和束电流
+47,A199,raw data,原始数据
+47,A201,mode,模式
+47,A202,cantilever type,悬臂梁类型
+47,A203,scan rate,扫描速率
+47,A204,scan size,扫描尺寸
+47,A205,Z servo gain,Z轴伺服增益
+47,A207,upper set voltage,上限截止电压
+47,A208,lower set voltage,较低设定电压
+47,A209,specific current density,比电流密度
+47,A441,base pressure,基础压力
+47,A214,base temperature,基础温度
+47,A215,pulse fraction,脉冲分数
+47,A216,laser pulse energy,激光脉冲能量
+47,A217,pulse rate,脉冲频率
+47,A218,pulse frequency,脉冲频率
+47,A429,microtruss direction,微桁架方向
+47,A430,microtruss thickness,微桁架厚度
+47,A431,compressive specimen thickness,压缩试样厚度
+47,A433,initial volume,初始体积
+47,A434,effective volume,有效体积
+47,A442,volume ratio,体积比
+47,A3,load,载荷
+47,A620,atmosphere,气氛
+48,A622,frequency level,频率水平
+48,A623,AC drive level,交流驱动电平
+48,A624,voltage step,电压步长
+48,A626,procedure,程序
+48,A357,sample type,样品类型
+48,A358,analysis elements,分析元素
+48,A570,solvent,溶剂
+48,A572,scattering angle,散射角
+48,A573,laser wavelength,激光波长
+48,A574,measurement duration,测量时长
+48,A575,numbers of runs,运行次数
+48,A576,z-average size,z - 平均尺寸
+48,A577,polydispersity index,多分散指数
+48,A578,size class,尺寸类别
+48,A579,intensity percentage,强度百分比
+48,A581,correlation,相关性
+48,A4,code,代码
+48,A5,calculation mode,计算模式
+48,A6,type,密度泛函理论计算/基组
+48,A7,basis set,基组
+48,A8,charge,电荷
+48,A9,energy cutoff,能量截断值
+48,A10,optimizer,优化器
+48,A11,exchange-correlation functional,交换关联泛函
+48,A12,method,方法
+48,A13,dielectric,介电常数
+48,A221,cavity radii,空腔半径
+48,A14,grid value,网格值
+48,A15,high-symmetry points,高对称点
+48,A16,k-point coordinates,k点坐标
+48,A17,number of k-points,k点数量
+48,A18,force,力
+48,A19,energy,能量
+48,A20,scf,自洽场
+48,A21,symmetry,对称性
+48,A22,magnetic ordering,磁有序
+48,A360,magnetic moment,磁矩
+48,A23,multiplicity,多重性
+48,A24,potential,赝势
+49,A25,type,密度泛函理论计算/LDA+U方法
+49,A26,atom,原子
+49,A27,orbital,轨道
+49,A28,U value,U值
+49,A29,J value,J值
+49,A30,method,部分占位法
+49,A31,smearing width,涂抹宽度
+49,A222,total energy,总能量
+49,A34,energy range,能量范围
+49,A35,number of energy point,能量点数
+49,A37,cell size,晶胞尺寸
+49,A38,displacement size,位移大小
+49,A39,number of displacement point,位移点数量
+49,A40,q-points,q点
+49,A42,number of images,图像数量
+49,A361,images,图像
+49,A43,climbing image scheme,攀爬图像方案
+49,A44,force criterion,力判据
+49,A45,thermostat,恒温器
+49,A362,barostat,压力控制方法
+49,A46,ensemble,系综
+49,A47,rescale step,速度重新调整步数
+49,A48,time step,时间步长
+49,A49,number of step,步数
+49,A50,starting temperature,起始温度
+49,A51,end temperature,终止温度
+49,A427,spin orbit coupling,自旋轨道耦合
+49,A364,dry time,干燥时间
+49,A583,start temperature,起始温度
+49,A585,temperature step,温度步长
+49,A586,heating rate,加热速率
+49,A225,acceleration voltage,加速电压
+49,A226,beam current,束流
+49,A227,magnification,放大倍数
+49,A443,acquisition time,采集时间
+49,A228,frame,框架
+50,A230,upper set frequency,上限频率
+50,A231,lower set frequency,较低设定频率
+50,A233,resistance,电阻
+50,A588,geometric surface area,几何表面积
+50,A237,reference electrode,参比电极
+50,A238,electrolyte,电解质
+50,A239,concentration,浓度
+50,A445,fourier spacing,傅里叶空间网格间距
+50,A446,accuracy,精度
+50,A448,PME-order,PME阶数
+50,A59,name,经验分子动力学/模拟条件/力场
+50,A60,source,经验分子动力学/模拟条件/力场
+50,A61,parameter,参数
+50,A62,cutoff radius,截断半径
+50,A64,integration algorithm,积分算法
+50,A366,initial velocity distribution method,初始速度分布方法
+50,A68,type,经验分子动力学/初始化/系综
+50,A368,barostat,压力控制器
+50,A72,type,
+50,A370,barostat,压力耦合器
+50,A74,strain,应变
+50,A75,strain rate,应变率
+50,A79,type,模拟使用的系综类型
+51,A80,initial temperature,初始温度
+51,A81,heating rate_,加热速率
+51,A82,holding temperature_,保温温度
+51,A83,holding time_,保温时间
+51,A84,cooling rate_,冷却速率
+51,A85,final temperature,最终温度
+51,A93,interval,间隔
+51,A94,total number,总数量
+51,A95,trajectory,轨迹
+51,A240,file,文件
+51,A96,analysis,分析
+51,A241,input file,输入文件
+51,A243,sample preparation,样品制备
+51,A245,current,电流
+51,A247,spot size,光斑尺寸
+51,A248,working distance,工作距离
+51,A376,ion beam,离子束
+51,A377,beam energy,束能量
+51,A378,beam current,束流电流
+51,A379,beam angle,束角
+51,A380,counts,计数
+51,A381,beam size,束流尺寸
+51,A382,stopper foil,阻挡箔
+51,A452,irradiance of bias light,偏置光辐照度
+51,A659,type of bias light,偏置光类型
+51,A660,measurement mode,测量模式
+51,A661,external voltage bias,外部电压偏置
+51,A662,chopping frequency,斩波频率
+52,A251,x-ray source,X射线源
+52,A252,beam size,光束尺寸
+52,A253,scanning step,扫描步长
+52,A254,data collection,数据收集
+52,A384,fatigue testing method,疲劳测试方法
+52,A256,waveform,波形
+52,A99,stress range,应力范围
+52,A100,strain range,应变范围
+52,A101,stress amplitude,应力幅值
+52,A102,elastic strain amplitude,弹性应变幅值
+52,A103,plastic strain amplitude,塑性应变幅值
+52,A104,mean stress,平均应力
+52,A105,stress ratio,应力比
+52,A257,frequency,频率
+52,A590,equipment,设备
+52,A591,condition,条件
+52,A385,ion beam source type,离子束源
+52,A260,incident angle,入射角
+52,A265,power,功率
+52,A267,repetition,重复性
+52,A269,analysis gas,分析气体
+52,A106,adsorbed gas,吸附气体
+52,A107,temperature_,温度
+52,A108,minimum pressure,最低压力
+52,A109,maximum pressure,最大压力
+52,A111,image,气体吸附 - 脱附等温线
+52,A112,analysis method,分析方法
+52,A627,permeating species,渗透物质
+52,A629,applied pressure,施加压力
+53,A114,measured gas,被测气体
+53,A118,voltage,电压
+53,A119,saturation time,饱和时间
+53,A120,image,图像
+53,A594,gel type,凝胶类型
+53,A595,gel percentag,凝胶百分比
+53,A597,running time,运行时间
+53,A602,type,液相色谱/获取条件/柱
+53,A603,injection volume,进样体积
+53,A604,run time,运行时间
+53,A606,gas,气体
+53,A607,mobile phase solvent ratio,流动相溶剂比例
+53,A123,type,硬度测试
+53,A271,test force,试验力
+53,A272,dwell time,保载时间
+53,A279,acquisition condition,获取条件
+53,A125,type,冲击试验
+53,A390,frequency range,频率范围
+54,A632,type,电流-电压测量/扫描
+54,A633,voltage range,电压范围
+54,A457,voltage sweep rate,电压扫描速率
+54,A634,current range,电流范围
+54,A635,current step,电流步长
+54,A636,current sweep rate,电流扫描速率
+54,A637,area of electrode,电极面积
+54,A458,delay time,延迟时间
+54,A459,duration time,持续时间
+54,A638,sampling rate,采样率
+54,A464,measurement time,测量时间
+54,A467,metrics,度量标准
+54,A469,number of cells averaged,平均的单元数量
+54,A470,certified,认证
+54,A471,certification institute,认证机构
+54,A472,age of cell,电池寿命
+54,A478,type,JV测量/光源类型
+54,A480,simulator classification,模拟器分类
+54,A481,intensity,光强
+54,A482,type of spectrum,光谱类型
+54,A484,illumination direction,光照方向
+54,A485,masked cell,掩膜电池
+54,A486,mask area,遮光区域
+54,A489,sweep rate,扫描速率
+54,A491,integration time,积分时间
+54,A493,voltage settling time,电压稳定时间
+54,A494,protocol,协议
+54,A496,potential,电势
+55,A436,specimen shape,试样形状
+55,A437,specimen length,试样长度
+55,A438,maximum applied field,最大施加场
+55,A440,magnetic hysteresis,磁滞
+55,A133,maximum voltage,最大电压
+55,A134,minimum voltage,最小电压
+55,A136,compliance current,合规电流
+55,A137,pulse,脉冲
+55,A282,tip type,针尖类型
+55,A283,test type,测试类型
+55,A284,time segment,时间片段
+55,A285,peak load,峰值载荷
+55,A286,indent pattern,压痕模式
+55,A287,indent spacing,压痕间距
+55,A140,image,核磁共振图像
+55,A610,peel angle,剥离角
+55,A611,peel speed,剥离速度
+55,A612,min,最小值
+55,A613,max,最大值
+56,A501,type,光稳定性/光源类型
+56,A504,intensity,强度
+56,A507,illumination direction,照明方向
+56,A508,load condition,负载条件
+56,A509,cyclng times,循环次数
+56,A510,UV filter,紫外滤光片
+56,A512,range,范围
+56,A513,passive resistance,被动电阻
+56,A516,cycling times,循环次数
+56,A517,ramp speed,升温速率
+56,A519,oxygen concentration,氧浓度
+56,A522,average value,平均值
+56,A523,total exposure time,总曝光时间
+56,A524,time betweeen measurements,测量间隔时间
+56,A525,number of bending cycle,弯曲循环次数
+56,A526,bending radius,弯曲半径
+56,A528,number of cells averaged,平均的电池片数量
+56,A529,country,国家
+56,A530,city,城市
+56,A531,coordinates,坐标
+56,A532,climate zone,气候区
+56,A533,tilt,倾斜角
+56,A534,cardinal direction,主方向
+56,A535,number of solar tracking axis,太阳跟踪轴数量
+56,A536,season,季节
+56,A537,start,启动时间
+56,A538,end,光伏户外测试/时间
+56,A539,total exposure,总暴露时间
+56,A545,Tmodule,Tmodule
+56,A547,raw data for outdoor trace,户外追踪原始数据
+56,A548,detailed weather data,详细天气数据
+56,A549,spectral data,光谱数据
+56,A550,irradiance data,辐照度数据
+57,A551,laser power,激光功率
+57,A663,laser spot diameter,激光光斑直径
+57,A664,slit,狭缝
+57,A665,numerical aperture,数值孔径
+57,A666,grating groove density,光栅槽密度
+57,A552,spectrometer resolution,光谱仪分辨率
+57,A400,beam energy,束流能量
+57,A404,beam size,束斑尺寸
+57,A411,humidity,湿度
+57,A413,geometry,几何条件
+57,A416,gun type,枪型
+57,A307,primary ion,初级离子
+57,A310,flood gun,泛光枪
+57,A311,E-gun,E枪
+57,A312,polarity,极性
+57,A313,sample voltage,样品电压
+58,A554,grid,栅格
+58,A317,exposure time,曝光时间
+58,A418,zone-axis,区域轴
+58,A419,scale unit,标尺单位
+58,A319,binning,像素合并
+58,A156,specimen direction,试样方向
+58,A322,gauge length,标距
+58,A420,specimen width,试样宽度
+58,A421,specimen thickness,试样厚度
+58,A422,specimen diameter,试样直径
+58,A159,strain rate,应变速率
+58,A423,stress rate,应力速率
+58,A424,crosshead separation rate,横梁分离速率
+58,A639,test standard,测试标准
+58,A163,heating time,加热时间
+58,A567,software,软件
+58,A568,database,数据库
+58,A168,ramp rate,升温速率
+58,A171,flue rate,流速
+58,A667,crucible,坩埚
+58,A172,image,热重分析图像
+59,A641,test type,试验类型
+59,A642,normal load,法向载荷
+59,A643,diameter of pin or ball,销或球的直径
+59,A644,apparent contact area,表观接触面积
+59,A645,contact pressure,接触压力
+59,A646,sliding speed,滑动速度
+59,A647,sliding distance,滑动距离
+59,A648,sliding diameter,滑动直径
+59,A649,stroke amplitude,行程振幅
+59,A650,stroke frequency,行程频率
+59,A556,UV source,紫外光源
+59,A557,pass energy,通过能
+59,A325,instrument,超小角中子散射仪
+59,A326,neutron wavelength,中子波长
+59,A327,beamsize,束斑尺寸
+59,A328,angular resolution,角分辨率
+59,A329,scanning start angle,扫描起始角
+59,A331,scanning end angle,扫描结束角
+59,A332,motor velocity,电机速度
+59,A562,scan speed,扫描速度
+59,A335,upper voltage,上限电压
+59,A336,lower voltage,低电压
+59,A615,capacity cut,容量截止值
+59,A616,voltage cut,电压截止值
+59,A426,electrode configuration,电极配置
+60,A342,beamsize,光束尺寸
+60,A343,neutralizer,中和剂
+60,A344,tilt angle,倾斜角
+60,A175,x-ray wavelength,x射线波长
+60,A178,scan axis,扫描轴
+60,A181,offset angle,偏移角
+60,A348,2theta range,2theta范围
+60,A186,sample rotation,样品旋转
+60,A566,sample temperature,样品温度
+60,A350,x-ray target,X射线靶材
+60,A351,XRF type,XRF类型
+60,A354,quantitative analysis method,定量分析方法
+61,P588,hearth,炉底
+61,P591,holding time,保持时间
+61,P592,cooling time,冷却时间
+61,P225,energy type,能量类型
+61,P226,name,原子层沉积/前驱体
+61,P227,amount,前驱体材料量
+61,P229,type of canister,罐体类型
+61,P230,name,原子层沉积/反应物
+61,P231,amount,反应物量
+61,P234,name,原子层沉积/载气
+61,P237,name,原子层沉积/吹扫气体
+61,P240,purge time,清除时间
+61,P241,feeding time,进料时间
+61,P242,cycle time,循环时间
+61,P243,number of cycles,循环次数
+61,P244,substrate temperature,基底温度
+61,P245,working pressure,工作压力
+61,P246,base pressure,基底压力
+61,P247,growth per cycle,每次循环生长量
+61,P249,name,原子层刻蚀/刻蚀剂
+61,P250,amount,原子层刻蚀/刻蚀剂
+61,P253,name,原子层刻蚀/反应物
+61,P254,amount,原子层刻蚀/反应物
+61,P257,name,原子层刻蚀/载气
+61,P260,name,原子层刻蚀/吹扫气体
+61,P270,etch per cycle,每次循环的刻蚀量
+62,P271,type,球磨法
+62,P272,rotation speed,转速
+62,P273,total time,总时间
+62,P274,milling time,球磨时间
+62,P275,rest time,休息时间
+62,P276,ball to powder weight ratio,球料质量比
+62,P277,material mass,物料质量
+62,P393,ball material,球料
+62,P395,ball size,球径
+62,P279,jar shape,罐形
+62,P280,jar volume,罐体积
+62,P281,jar material,罐体材料
+62,P396,coating material,涂布材料
+62,P466,blade size,刮刀尺寸
+62,P399,speed,速度
+62,P467,feed,进料
+62,P283,metal forming type,金属成形类型
+62,P400,forming force,成形力
+62,P285,forming temperature,成形温度
+62,P286,reduction ratio,压缩比
+62,P287,pass number,道次数
+62,P401,cooling rate,冷却速率
+62,P288,cooling method,冷却方法
+62,P427,type,铸造类型
+62,P468,casting pressure,铸造压力
+62,P329,casting temperature,铸造温度
+62,P594,mold material,模具材料
+62,P330,mold temperature,模具温度
+62,P331,pouring speed,浇注速度
+62,P333,solidification time,凝固时间
+62,P1,revolution per minute,转速
+62,P289,relative centrifugal force,相对离心力
+62,P4,name,离心/添加剂_
+62,P5,amount,添加剂量
+62,P402,tube material,管材
+62,P403,tube volume,管体积
+63,P6,slurry concentration,浆料浓度
+63,P7,slurry density,浆料密度
+63,P9,polishing rate,抛光速率
+63,P10,surface roughness,表面粗糙度
+63,P11,name,化学机械抛光/前驱体_
+63,P12,amount,材料_
+63,P15,rpm,转速
+63,P469,name,化学浴沉积/前驱体
+63,P470,composition,前驱体组成
+63,P471,excess,过量
+63,P473,supplier,供应商
+63,P474,volume,前驱体体积
+63,P475,age,溶液老化时间
+63,P477,state,状态
+63,P478,molarity,摩尔浓度
+63,P484,total pressure,总压力
+63,P16,name,化学合成/前驱体_
+63,P17,amount,前驱体用量
+63,P19,solution,溶液
+63,P294,name,化学气相沉积/载气
+63,P303,name,化学气相沉积/反应气体
+63,P296,name,化学气相沉积/前驱体
+63,P568,name,化学气相沉积/催化剂
+63,P569,amount,催化剂用量
+63,P570,name,化学气相沉积/促进剂
+63,P571,amount,量
+63,P305,name,化学气相沉积/基底
+63,P492,cleaning,清洁
+64,P424,corona needle,电晕针
+64,P425,needle to sample distance,针尖到样品距离
+64,P575,membrane type,膜类型
+64,P576,membrane molecular weight cut-off,膜分子量截留值
+64,P577,dialysis buffe,透析缓冲液
+64,P579,time_,时间
+64,P572,depth,切削深度
+64,P573,feedrate,进给速率
+64,P596,coating solvent,涂层溶剂
+64,P426,applied electric field,施加电场
+64,P601,time,直流极化时间
+64,P35,name,电子束光刻/电子束抗蚀剂
+64,P41,dwell time,停留时间
+64,P42,step size,步长
+64,P43,line spacing,线间距
+64,P44,area dose,面积剂量
+64,P45,developer,显影剂
+64,P47,name,前驱体
+64,P48,amount,电化学沉积/电解质/前驱体
+64,P51,pH,pH
+64,P53,working electrode,工作电极
+64,P54,counter electrode,对电极
+64,P487,electrode distance,电极间距
+64,P58,current density,电流密度
+64,P59,stirring,搅拌
+65,P404,type,电纺类型
+65,P405,name,电纺/前驱体
+65,P407,name,溶剂/前驱体
+65,P412,type,电纺丝/收集器
+65,P413,rotating speed,转速
+65,P721,collector material,收集器材料
+65,P415,tip to collector distance,针头到收集器距离
+65,P417,injection rate,注射速率
+65,P488,encapsulating materials,封装材料
+65,P489,edge sealing materials,边缘密封材料
+65,P603,inner diameter of the ampoule,安瓿瓶内径
+65,P604,melting method,熔融法
+65,P606,melting temperature_,熔化温度
+65,P610,post heat-treatment temperature,后热处理温度
+65,P611,post heat-treatment time,后热处理时间
+65,P491,etching,蚀刻
+65,P430,working temperature,工作温度
+65,P431,ramping rate,升温速率
+65,P433,name,水热反应/前驱体
+65,P434,amount,水热反应/前驱体
+65,P437,amount,表面活性剂
+65,P438,concentration,表面活性剂浓度
+65,P442,substrate,基底
+66,P618,concentration,前驱体浓度
+66,P624,reaction temperature,反应温度
+66,P625,reaction time,反应时间
+66,P626,quenching temperature,淬火温度
+66,P627,quenching time,淬火时间
+66,P632,sintering pressure_,烧结压力
+66,P633,sintering temperature_,烧结温度
+66,P635,sintering time_,烧结时间
+66,P636,sintering atmosphere,烧结气氛
+66,P580,name,离子嵌入/嵌入试剂_
+66,P581,amount,插层剂用量
+66,P582,name,离子嵌入/基体
+66,P493,solute,溶质
+66,P637,traveling speed,移动速度
+66,P638,dispensing pressure,分配压力
+66,P639,nozzle diameter,喷嘴直径
+66,P640,3D modelling SW,3D建模软件
+66,P642,name,界面反应/组成 相
+66,P646,name,界面反应/成分 相
+66,P651,name,界面反应/组成 相_
+67,P658,milling method,铣磨法
+67,P659,milling ball material,磨球材料
+67,P660,milling ball diameter,磨球直径
+67,P661,milling speed,球磨速度
+67,P662,milling time,研磨时间
+67,P663,milling container material,磨料容器材料
+67,P664,milling container volume,研磨容器体积
+67,P665,milling atmosphere,铣削气氛
+67,P666,milling agent,研磨剂
+67,P498,metal AM type,金属增材制造类型
+67,P499,beam wavelength,束波长
+67,P500,beam power,束流功率
+67,P501,beam diameter,光束直径
+67,P503,focus offset,焦点偏移
+67,P504,build direction,构建方向
+67,P505,layer thickness,层厚
+67,P508,overlap spacing,重叠间距
+67,P509,hatch spacing,扫描间距
+67,P510,powder feed rate,粉末送进率
+67,P511,wire diameter,丝材直径
+67,P512,wire feed rate,送丝速度
+67,P513,welding speed,焊接速度
+67,P514,welding voltage,焊接电压
+67,P669,welding current,焊接电流
+67,P515,gas flow rate,气体流量
+67,P516,substrate temperature,基板温度
+67,P517,preheating temperature,预热温度
+67,P110,name,微波辅助合成/前驱体
+67,P111,amount,微波辅助合成/前驱体
+67,P112,name,微波辅助合成/溶液_
+67,P113,amount,微波辅助合成/溶液量
+67,P520,microwave power,微波功率
+67,P521,microwave frequency,微波频率
+67,P338,type,混合类型
+67,P339,material mixed,材料混合
+67,P340,name,混合/溶剂
+67,P341,amount,溶剂用量
+68,P117,name,分子束外延/源_
+68,P118,amount,数量
+68,P119,substrate temperature,衬底温度
+68,P120,substrate orientation,衬底取向
+68,P121,substrate rotation rate,衬底旋转速率
+68,P122,growth chamberpressure,生长室压力
+68,P123,source flux_,源束通量
+68,P125,growth rate,生长速率
+68,P126,growth time,生长时间
+68,P127,growth interruption time,生长中断时间
+68,P671,metal,金属
+68,P672,composition of metals,金属成分
+68,P673,reaction container,反应容器
+68,P676,holding time,保温时间
+68,P677,cooling temperature,冷却温度
+68,P679,holding time at cooled temperature,保温时间
+68,P680,centrifuge speed,离心速度
+68,P681,centrifuge time,离心时间
+68,P682,name,非溶剂诱导相分离/聚合物溶液组成/聚合物
+68,P684,name,非溶剂诱导相分离/聚合物溶液组成/添加剂
+68,P687,polymer solution temperature,聚合物溶液温度
+68,P688,name,非溶剂诱导相分离/非溶剂组成/添加剂
+68,P691,non-solvent temperature,非溶剂温度
+68,P692,phase separation time,相分离时间
+68,P522,perovskite postprocess,钙钛矿后处理
+68,P693,plasma gas,等离子体气体
+68,P694,plasma power,等离子体功率
+68,P695,plasma frequency,等离子体频率
+68,P446,medium,介质
+68,P129,material removal rate,材料去除率
+68,P130,contact stress,接触应力
+68,P131,relative velocity,相对速度
+68,P132,Preston's coefficient,普雷斯顿系数
+69,P359,type,压制类型
+69,P136,laser source,激光源
+69,P139,fluence,通量
+69,P351,rotation speed,旋转速度
+69,P352,axis,轴
+69,P355,name,脉冲激光沉积/气氛
+69,P357,target-substrate distance,靶材 - 基板间距
+69,P358,lens-target distance,透镜-靶距
+69,P523,media,淬火介质
+69,P524,media volume,介质体积
+69,P525,media additive,介质添加剂
+69,P586,name,冲洗/溶剂
+69,P587,amount,溶剂量
+69,P147,name,冲洗/添加剂_
+69,P148,amount,添加剂_
+69,P161,pressure applied,施加压力
+69,P701,ingot diameter,铸锭直径
+69,P702,ingot length,晶锭长度
+69,P706,down rate,下降速率
+69,P447,type,泥浆浇铸
+69,P448,material mix,材料混合物
+69,P449,name,浆料浇铸/溶剂
+70,P455,pump revolution,泵转速
+70,P457,substrate speed,基材速度
+70,P712,average powder size,平均粉末粒度
+70,P168,name,溶剂热合成/前驱体_
+70,P169,amount,溶热合成/前驱体
+70,P170,name,溶剂热合成/溶剂_
+70,P171,amount,溶剂
+70,P172,name,溶热合成/还原剂_
+70,P173,amount,还原剂用量
+70,P174,name,溶热合成/表面活性剂_
+70,P175,amount,表面活性剂用量
+70,P177,time,溶热合成时间
+70,P364,name,溶胶 - 凝胶合成/前驱体
+70,P181,composition,超声处理材料组成
+70,P460,type,超声处理
+70,P185,name,声化学合成/前驱体
+70,P187,name,溶剂
+70,P188,amount,声化学合成/溶剂
+70,P190,ultrasonic frequency,超声频率
+70,P191,time,超声合成时间
+71,P527,type,旋涂法
+71,P367,name,旋涂/前驱体
+71,P531,age,溶液龄期
+71,P714,chemical information,化学信息
+71,P715,dropping time,滴落时间
+71,P716,dropping volume,滴加体积
+71,P540,rpm ramping rate,转速提升速率
+71,P373,name,喷雾热解涂层/前驱体
+71,P544,age,溶液龄期/前驱体
+71,P377,droplet size,液滴尺寸
+71,P378,spray speed,喷涂速度
+71,P379,flame temperature,火焰温度
+71,P380,heat treatment time,热处理时间
+71,P192,base pressure,本底压力
+71,P194,sputtering gas,溅射气体
+71,P195,substrate distance,基板间距
+71,P196,target_,溅射沉积
+71,P197,sputter power,溅射功率
+71,P198,power source type,电源类型
+71,P199,time,溅射沉积时间
+71,P381,substrate rotation,基底旋转
+72,P560,surface pre-treatment,表面预处理
+72,P561,name,热蒸发/蒸发材料
+72,P565,age,蒸发材料的时效/蒸发材料的寿命
+72,P386,deposition rate,沉积速率
+72,P204,holding temperature_,保持温度_
+72,P205,deformation holding_,变形保持量
+72,P206,holding time_,保温时间_
+72,P208,deformation cooling_,冷却变形
+72,P209,cooling method_,冷却方法
+72,P462,pipe material,管材
+72,P463,pipe diameter,管道直径
+72,P718,washing solvent,洗涤溶剂
+72,P222,etchant_,蚀刻剂
+72,P223,concentration_,浓度
+72,P391,stirring rate,搅拌速率
+74,M309,crystallinity,结晶度
+75,S363,single crystal,单晶
+75,S370,function,附加背层功能
+76,A194,ion beam curren,离子束电流
+76,A303,magnification,
+76,A595,gel percentage,凝胶百分比
+76,A664,sli,狭缝
+77,P122,"growth chamber
+pressure",生长室压力
+77,P577,dialysis buffer,透析缓冲液
